@@ -17,7 +17,7 @@ int PORTA = 1883;
 
 // Informações da rede WiFi
 char * SSID = "Mira gomes";
-char * PASSWORD = "Carrossel";
+char * PASSWORD = "";
 
 WiFiClient espClient;
 PubSubClient MQTT(espClient);
